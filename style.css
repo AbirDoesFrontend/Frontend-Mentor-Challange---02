@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body{
+ font-family: 'Red Hat Display', sans-serif;
+ background: hsl(225, 100%, 94%);
+}
+
+html{
+ font-size: 62.5%;
+}
+
+*{
+ margin: 0;
+ padding: 0;
+}
+
+img{
+ max-width: 100%;
+}
+
+
+/* CARD CSS START */
+
+.card{
+ height: 80vh;
+}
+
+.card-section{
+ width: 300px;
+}
+
+.card-content{
+ border-radius: 5rem solid;
+ text-align: center;
+}
+
+.card-section{
+ border-radius: 2rem;
+ background: white ;
+ margin-left: 3.7rem;
+ margin-right: 1rem;
+ margin-top: 6rem;
+}
+
+.card-img img {
+	border-radius: 11px 11px 0 0;
+}
+
+/* CARD CONTENT CSS */
+
+.card-summary h2{
+ font-size: 2rem;
+ padding-bottom: 2rem;
+}
+
+
+.card-summary p{
+ font-size: 1.4rem;
+ padding: 0 1rem;
+ color: hsl(224, 23%, 55%);
+ line-height: 2.5rem;
+}
+
+.card-summary{
+ padding:2rem;
+}
+
+/* Plan Section CSS */
+
+.plan-section{
+ width: 25rem;
+ background: hsl(225, 100%, 98%);
+ margin: auto;
+ border-radius: 1rem;
+}
+
+.plan-everything{
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ padding: 1rem 0;
+ margin-bottom: 2rem ;
+}
+
+.plan-music-icon img{
+ transform: translateX(-5px);
+ width: 40px;
+ height: 40px;
+}
+
+.plan-content p{
+ padding-top: 2px;
+ transform: translateX(-2px);
+ font-size: 1.2rem;
+ color: hsl(224, 23%, 55%);
+}
+
+.plan-content{
+ transform: translateX(-16px);
+ padding-bottom: 1rem;
+}
+
+.plan-change-btn{
+ transform: translateX(10px)
+}
+
+.plan-change-btn a{
+ color: hsl(245, 75%, 52%);
+ font-weight: 700;
+}
+
+/* PAYMENT BUTTON CSS */
+
+.payment-btn{
+ margin: 2rem 0;
+ background: hsl(245, 75%, 52%);
+ padding: 1rem 0;
+ width: 25rem;
+ margin: auto;
+ border-radius: 1rem;
+}
+
+.btn a{
+ text-decoration: none;
+ font-size: 1.2rem;
+ font-weight: 700;
+}
+
+.btn a{
+ color: white;
+ padding: 2rem;
+}
+
+/* CANCEL CSS */
+
+.cancel{
+ margin-top: 2rem;
+ padding-bottom: 3rem;
+}
+
+.cancel a{
+ text-decoration: none;
+ font-size: 1.2rem;
+ font-weight: 700;
+ color: hsl(224, 23%, 55%);
+}
+
+
+@media (min-width:768px){
+ .card-section{
+  max-width: 1080px;
+  margin: auto;
+  transform: translateY(50px);
+ }
+}
+
+
